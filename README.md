@@ -16,8 +16,8 @@ Once someone has won, hit reset to play again!
 
 ## Screenshots
 
-![Starting game board](https://imgur.com/a/KWem2QF)
-![Gameboard with a winner](https://imgur.com/Nwi4qER)
+![Starting game board](assets/Starting.PNG)
+![Gameboard with a winner](assets/Winner.PNG)
 
 ## Technologies Used
 
@@ -31,5 +31,4 @@ The game can be accessed [here](https://alianjumm.github.io/Connect-4/). It requ
 
 ## Future Work
 
-- **A working CPU**. The original plan for the game was to implement a working AI (CPU). However, due to time constraints, this was not possible.
-- **Varying difficulty for the CPU**. A very simple implementation of the CPU would be to allow for the computer to hop randomly into any accessible space under the rules of the game. However, this may be considered "easy" mode. By coding for more targeted movement based on a player's pieces on the board, this allows for a higher difficulty.
+- **AI**. The future of this game would benefit from a fully functional (CPU) mode. This would allow the user to select wether they would like to play against another player or just the computer. This would also include a level of difficulty where the AI would play strategically so to attempt at beating the player. 
