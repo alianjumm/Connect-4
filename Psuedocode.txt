@@ -2,7 +2,6 @@
 Initial setup for game:
 
     Checkers board pops up
-        - 
     setup the text and buttons in html 
     title on top of page with instructions below "How to play:"
     have an indicator that displays whos turn it is
