@@ -1,0 +1,34 @@
+
+Initial setup for game:
+
+    Checkers board pops up
+        - 
+    setup the text and buttons in html 
+    title on top of page with instructions below "How to play:"
+    have an indicator that displays whos turn it is
+
+Game code setup:
+
+    start with minimum 4x4 board. 6 x 7 grid on the board 
+    make an array and store it in a const 
+    create an object that stores information and initializes turns for each player 
+    prompt player to enter their name 
+    setup reset button 
+    setup a function for player 1 turn 
+    create a random turn generator for CPU through math.random or AI if there is no time constraint  
+
+Winning functionality:
+
+    check winner function 
+    have winning combinations setup in an array 
+    index that array through for loop to check winner after the first 4 turns  
+
+During the game:
+
+    switch turn after each player move 
+    once a player has won, style a line across the winning move to connect 4
+
+Results:
+
+    Display the winning player in the display box 
+    highlight the reset button 
