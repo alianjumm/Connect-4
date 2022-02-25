@@ -40,7 +40,6 @@ function reset(){
     clear.style.backgroundColor = "white"
     clear.innerHTML = ""   
   })
-  console.log(gameBoard)
 }
 
 //Object storing players
@@ -142,7 +141,6 @@ function checkWinner(player){
 for (let row=5; row >=3 ; row--){
   for (let col=0; col <=3 ; col++){
     if(gameBoard[row][col] === player && gameBoard[row-1][col+1] === player && gameBoard[row-              2]      [col+2] === player && gameBoard[row-3][col+3] === player){
-          console.log('Diagonal Winner!');
           winner = true;
          return; 
         }
@@ -153,7 +151,6 @@ for (let row=5; row >=3 ; row--){
 for (let row=5; row >=3 ; row--){
     for (let col=6; col >=3 ; col--){
       if(gameBoard[row][col] === player && gameBoard[row-1][col-1] === player && gameBoard[row-2][col-2] ===         player && gameBoard[row-3][col-3] === player){
-          console.log('Diagonal Winner!')
           winner = true;
          return; 
        }
@@ -164,7 +161,6 @@ for (let row=5; row >=3 ; row--){
 for (let col=0; col<7; col++){
   for(let row=0; row<6; row++){
     if(gameBoard[row][col] === player && gameBoard[row-1][col] === player && gameBoard[row-2][col] === player       && gameBoard[row-3][col] === player){
-          console.log('vertical Winner!');
           winner = true;
         return ;
         }
@@ -175,7 +171,6 @@ for (let col=0; col<7; col++){
 for (let row=0; row<6; row++){
   for (let col=0; col<4; col++){
     if(gameBoard[row][col] === player && gameBoard[row][col+1] === player && gameBoard[row][col+2] === player && gameBoard[row][col+3] === player){
-      console.log('horizontal Winner!');
        winner = true;
          return ;
         }
